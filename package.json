@@ -1,0 +1,40 @@
+{
+  "name": "ci-success",
+  "version": "1.0.0-TEST",
+  "description": "Tired of getting errors in ci? ci-success is here",
+  "main": "bin/cli.js",
+  "scripts": {
+    "test": "node bin/cli.js travis --success"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abranhe/ci-success.git"
+  },
+  "bin": {
+    "ci-success": "bin/cli.js"
+  },
+  "keywords": [
+    "no-errors",
+    "ci",
+    "success",
+    "fun"
+  ],
+  "files": [
+    "/bin"
+  ],
+  "author": {
+    "name": "Carlos Abraham",
+    "email": "abraham@abranhe.com",
+    "web": "abranhe.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abranhe/ci-success/issues"
+  },
+  "homepage": "https://github.com/abranhe/ci-success#readme",
+  "dependencies": {
+    "meow": "^5.0.0",
+    "term-img": "^2.1.0",
+    "terminal-image": "^0.1.1"
+  }
+}
