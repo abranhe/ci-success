@@ -2,8 +2,9 @@
 
 <blockquote align="center"> Tired of getting errors in ci? ci-success is here </blockquote>
 
-[<img src="https://cdn.abraham.gq/projects/ci-success/shot.png" align="center">](https://www.npmjs.com/package/ci-success)
-
+<p align="center">
+<a href="https://www.npmjs.com/package/ci-success"><img src="https://cdn.abraham.gq/projects/ci-success/shot.png" align="center"></a>
+</p>
 
 <p align="center">
 	<!-- Travis CI -->

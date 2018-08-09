@@ -1,6 +1,6 @@
 {
   "name": "ci-success",
-  "version": "1.0.0-TEST",
+  "version": "1.0.0-TEST.1",
   "description": "Tired of getting errors in ci? ci-success is here",
   "main": "bin/cli.js",
   "scripts": {
@@ -12,6 +12,9 @@
   },
   "bin": {
     "ci-success": "bin/cli.js"
+  },
+	"engines": {
+    "node": ">=8.0.0"
   },
   "keywords": [
     "no-errors",
