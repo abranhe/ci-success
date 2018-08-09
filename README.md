@@ -42,6 +42,20 @@ HD images are only available on [iTerm](https://www.iterm2.com/).
 - App Veyor
 - Gitlab
 
+# Install
+
+```
+npm install --save ci-success
+```
+
+# Config `package.json`
+
+```json
+"scripts": {
+	"test": "ci-success"
+}
+```
+
 # CLI
 
 ```
