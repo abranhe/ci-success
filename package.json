@@ -4,7 +4,7 @@
   "description": "Tired of getting errors in ci? ci-success is here",
   "main": "bin/cli.js",
   "scripts": {
-    "test": "node bin/cli.js travis --success"
+    "test": "ci-success travis --success"
   },
   "repository": {
     "type": "git",
@@ -35,5 +35,8 @@
   "dependencies": {
     "chalk": "^2.4.1",
     "meow": "^5.0.0"
+  },
+  "devDependencies": {
+    "ci-success": "^2.0.0"
   }
 }
