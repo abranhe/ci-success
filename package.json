@@ -4,7 +4,7 @@
   "description": "Tired of getting errors in ci? ci-success is here",
   "main": "bin/cli.js",
   "scripts": {
-    "test": "ci-success"
+    "test": "node bin/cli.js travis --success"
   },
   "repository": {
     "type": "git",
@@ -12,9 +12,6 @@
   },
   "bin": {
     "ci-success": "bin/cli.js"
-  },
-  "engines": {
-    "node": ">=8.0.0"
   },
   "keywords": [
     "no-errors",
@@ -36,9 +33,7 @@
   },
   "homepage": "https://github.com/abranhe/ci-success#readme",
   "dependencies": {
-    "ci-success": "^1.0.0-ALPHA",
-    "meow": "^5.0.0",
-    "term-img": "^2.1.0",
-    "terminal-image": "^0.1.1"
+    "chalk": "^2.4.1",
+    "meow": "^5.0.0"
   }
 }

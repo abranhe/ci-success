@@ -28,8 +28,6 @@
 
 Sometimes I don't want to create tests for my projects, and get travis running ok, I was exhausted to use `echo PASSING` so I created it.
 
-HD images are only available on [iTerm](https://www.iterm2.com/).
-
 > ⚠️ NOTE: I don't use it a lot, and I recommend to you not to use it. CREATE YOUR TESTS ☝🏻
 
 # Supported  CIs
@@ -60,32 +58,67 @@ npm install --save ci-success
 
 ```
 Usage
-    $ ci-success <option|flag>
+	$ ci-success <option|flag>
 
-  Options
-  	travis        show travis ci logo
-  	app-veyor     show app veyor ci logo
-  	circle-ci     show circle ci logo
-  	jenkins       show jenkins ci logo
-  	gitlab        show gitlab ci logo
+Options
+	travis        show travis ci logo
+	app-veyor     show app veyor ci logo
+	circle-ci     show circle ci logo
+	jenkins       show jenkins ci logo
+	gitlab        show gitlab ci logo
 
-  Flags
-  	--help        show this message and close
-  	--success     add success to any continuous integration
+Flags
+	--help        show this message and close
+	--success     add success to any continuous integration
 
-  Example
-  	$ ci-success travis --success
+Example
+	$ ci-success travis --success
 
-  	$$$$$$\
-  	$$  __$$\
-  	$$ /  \__|$$\   $$\  $$$$$$$\  $$$$$$$\  $$$$$$\   $$$$$$$\  $$$$$$$\
-  	\$$$$$$\  $$ |  $$ |$$  _____|$$  _____|$$  __$$\ $$  _____|$$  _____|
-  	 \____$$\ $$ |  $$ |$$ /      $$ /      $$$$$$$$ |\$$$$$$\  \$$$$$$\
-  	$$\   $$ |$$ |  $$ |$$ |      $$ |      $$   ____| \____$$\  \____$$\
-  	\$$$$$$  |\$$$$$$  |\$$$$$$$\ \$$$$$$$\ \$$$$$$$\ $$$$$$$  |$$$$$$$  |
-  	 \______/  \______/  \_______| \_______| \_______|\_______/ \_______/
 
-  	...
+
+												Ndhso+//////+oshdN
+										Nho/------------------/ohN
+									h+--------------------------+h
+								y:---------::::::::::::---------:y
+							h:-----------syyyyyyyyyys-----------:h
+						 o-------------syy/oyyo/yys-------------o
+					 N+----:::-----------+yy+-----------::::---+
+					 o////////-----------+yy+-----------////////o
+					h///:::///-----------+yy+-----------///:::///h
+			Nhs+:------///----------syyyys----------///------:+shN
+		 s-----------///::::::::::oooooo::::::::::///-----------s
+		 +-----------////////////////////////////////-----------+
+		 o-----------:::::----------------------:::::-----------s
+		 y------------::///+++ooooooooooo++++++///::------------h
+		 N-----:/+oosyyyyyyyyysssssoooosyyyyyyyyyyyysso+//:-----N
+			+-/osyyyysso+osso+//:::::::/oyyyyysso+//++oosssssso:-+
+			Nsyyyys+/::/+///sys/::://osssoo+//::oyy+::::://osso:yN
+		 Nhyysyso::::::::yd:hs::+ssssssss+:::/d+od/::::::oss:--m
+		Nyy+--oss/::::::/ddddy:+sso::::oss+::/dddds/::::/sso---d
+	 NydN---/sso::::::+++//:+sso......oss+:://////::::oss/---N
+	NdN  s---ssso+/:://++oossso........osssoo++//::/+osss---s
+	N     o---/osssssssssso+/:..........:/+osssssssssso/---o
+				 Ndy:../oo+/:-....:+s:......:s+:....-:/+oo/..:ydN
+					dhh-........./oyyyyys+//+syyyyyo:.........-hhd
+					 myyyoooooosyyyyyyyyyyyyyyyyyyyyyysooooooyyym
+						NyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyN
+						 NhyyyyyyyyyyyyyyyysoosyyyyyyyyyyyyyyyyhN
+								Nmysyyyyyyyso+::::::+osyyyyyyysymN
+									 d+:/++/-....----....-/++/:+d
+										 Nh+-................-+hN
+												 Nhso/::::::/oshN
+
+
+
+
+ $$$$$$\
+$$  __$$\
+$$ /  \__|$$\   $$\  $$$$$$$\  $$$$$$$\  $$$$$$\   $$$$$$$\  $$$$$$$\
+\$$$$$$\  $$ |  $$ |$$  _____|$$  _____|$$  __$$\ $$  _____|$$  _____|
+ \____$$\ $$ |  $$ |$$ /      $$ /      $$$$$$$$ |\$$$$$$\  \$$$$$$\
+$$\   $$ |$$ |  $$ |$$ |      $$ |      $$   ____| \____$$\  \____$$\
+\$$$$$$  |\$$$$$$  |\$$$$$$$\ \$$$$$$$\ \$$$$$$$\ $$$$$$$  |$$$$$$$  |
+ \______/  \______/  \_______| \_______| \_______|\_______/ \_______/
 
 ```
 # Team

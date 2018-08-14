@@ -1,10 +1,8 @@
 #!/usr/bin/env node
 'use strict';
-const path = require('path');
 const meow = require('meow');
-const termImg = require('term-img');
-const terminalImage = require('terminal-image');
 const chalk = require('chalk');
+const ci = require('./cis.js')
 
 const cli = meow(`
 	Usage
@@ -23,72 +21,36 @@ const cli = meow(`
 
 	Example
 		$ ci-success travis --success
-
-		$$$$$$\\
- 	$$  __$$\\
- 	$$ /  \\__|$$\\   $$\\  $$$$$$$\\  $$$$$$$\\  $$$$$$\\   $$$$$$$\\  $$$$$$$\\
- 	\\$$$$$$\\  $$ |  $$ |$$  _____|$$  _____|$$  __$$\\ $$  _____|$$  _____|
- 	 \\____$$\\ $$ |  $$ |$$ /      $$ /      $$$$$$$$ |\\$$$$$$\\  \\$$$$$$\\
- 	$$\\   $$ |$$ |  $$ |$$ |      $$ |      $$   ____| \\____$$\\  \\____$$\\
- 	\\$$$$$$  |\\$$$$$$  |\\$$$$$$$\\ \\$$$$$$$\\ \\$$$$$$$\\ $$$$$$$  |$$$$$$$  |
- 	 \\______/  \\______/  \\_______| \\_______| \\_______|\\_______/ \\_______/
-
-		...
-
-`);
-
-let ciName;
-let success = chalk.green(`
-
-	 $$$$$$\\
-	$$  __$$\\
-	$$ /  \\__|$$\\   $$\\  $$$$$$$\\  $$$$$$$\\  $$$$$$\\   $$$$$$$\\  $$$$$$$\\
-	\\$$$$$$\\  $$ |  $$ |$$  _____|$$  _____|$$  __$$\\ $$  _____|$$  _____|
-	 \\____$$\\ $$ |  $$ |$$ /      $$ /      $$$$$$$$ |\\$$$$$$\\  \\$$$$$$\\
-	$$\\   $$ |$$ |  $$ |$$ |      $$ |      $$   ____| \\____$$\\  \\____$$\\
-	\\$$$$$$  |\\$$$$$$  |\\$$$$$$$\\ \\$$$$$$$\\ \\$$$$$$$\\ $$$$$$$  |$$$$$$$  |
-	 \\______/  \\______/  \\_______| \\_______| \\_______|\\_______/ \\_______/
-
-`);
+` + ci.travis + ci.success);
 
 const defaultMessage = () => {
-	console.log(success);
+	console.log(ci.success);
 };
-
-const fallback = async () => {
-	const image = await terminalImage.file(path.join(__dirname, ciName + '.png'));
-	console.log(image);
-};
-
-const showImg = (ci) => {
-	ciName = ci;
-	termImg(path.join(__dirname, ci + '.png'), {fallback});
-};
-
-if(cli.flags.success) {
-	defaultMessage();
-}
 
 if(cli.input[0] == 'travis') {
-	showImg('travis');
+	console.log(ci.travis);
 }
 
 if(cli.input[0] == 'circle-ci') {
-	showImg('circle-ci');
+	console.log(ci.circleCI);
 }
 
 if(cli.input[0] == 'jenkins') {
-	showImg('jenkins');
+	console.log(ci.jenkins);
 }
 
 if(cli.input[0] == 'gitlab') {
-	showImg('gitlab');
+	console.log(ci.gitlab);
 }
 
 if(cli.input[0] == 'app-veyor') {
-	showImg('app-veyor');
+	console.log(ci.appVeyor);
 }
 
 if(cli.input.length != 1) {
+	defaultMessage();
+}
+
+if(cli.flags.success) {
 	defaultMessage();
 }
