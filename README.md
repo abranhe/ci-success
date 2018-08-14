@@ -75,38 +75,37 @@ Example
 	$ ci-success travis --success
 
 
-
-												Ndhso+//////+oshdN
-										Nho/------------------/ohN
-									h+--------------------------+h
-								y:---------::::::::::::---------:y
-							h:-----------syyyyyyyyyys-----------:h
-						 o-------------syy/oyyo/yys-------------o
-					 N+----:::-----------+yy+-----------::::---+
-					 o////////-----------+yy+-----------////////o
-					h///:::///-----------+yy+-----------///:::///h
-			Nhs+:------///----------syyyys----------///------:+shN
-		 s-----------///::::::::::oooooo::::::::::///-----------s
-		 +-----------////////////////////////////////-----------+
-		 o-----------:::::----------------------:::::-----------s
-		 y------------::///+++ooooooooooo++++++///::------------h
-		 N-----:/+oosyyyyyyyyysssssoooosyyyyyyyyyyyysso+//:-----N
-			+-/osyyyysso+osso+//:::::::/oyyyyysso+//++oosssssso:-+
-			Nsyyyys+/::/+///sys/::://osssoo+//::oyy+::::://osso:yN
-		 Nhyysyso::::::::yd:hs::+ssssssss+:::/d+od/::::::oss:--m
-		Nyy+--oss/::::::/ddddy:+sso::::oss+::/dddds/::::/sso---d
-	 NydN---/sso::::::+++//:+sso......oss+:://////::::oss/---N
-	NdN  s---ssso+/:://++oossso........osssoo++//::/+osss---s
-	N     o---/osssssssssso+/:..........:/+osssssssssso/---o
-				 Ndy:../oo+/:-....:+s:......:s+:....-:/+oo/..:ydN
-					dhh-........./oyyyyys+//+syyyyyo:.........-hhd
-					 myyyoooooosyyyyyyyyyyyyyyyyyyyyyysooooooyyym
-						NyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyN
-						 NhyyyyyyyyyyyyyyyysoosyyyyyyyyyyyyyyyyhN
-								Nmysyyyyyyyso+::::::+osyyyyyyysymN
-									 d+:/++/-....----....-/++/:+d
-										 Nh+-................-+hN
-												 Nhso/::::::/oshN
+	                          Ndhso+//////+oshdN
+	                      Nho/------------------/ohN
+	                    h+--------------------------+h
+	                  y:---------::::::::::::---------:y
+	                h:-----------syyyyyyyyyys-----------:h
+	               o-------------syy/oyyo/yys-------------o
+	             N+----:::-----------+yy+-----------::::---+
+	             o////////-----------+yy+-----------////////o
+	            h///:::///-----------+yy+-----------///:::///h
+	        Nhs+:------///----------syyyys----------///------:+shN
+	       s-----------///::::::::::oooooo::::::::::///-----------s
+	       +-----------////////////////////////////////-----------+
+	       o-----------:::::----------------------:::::-----------s
+	       y------------::///+++ooooooooooo++++++///::------------h
+	       N-----:/+oosyyyyyyyyysssssoooosyyyyyyyyyyyysso+//:-----N
+	        +-/osyyyysso+osso+//:::::::/oyyyyysso+//++oosssssso:-+
+	        Nsyyyys+/::/+///sys/::://osssoo+//::oyy+::::://osso:yN
+	       Nhyysyso::::::::yd:hs::+ssssssss+:::/d+od/::::::oss:--m
+	      Nyy+--oss/::::::/ddddy:+sso::::oss+::/dddds/::::/sso---d
+	     NydN---/sso::::::+++//:+sso......oss+:://////::::oss/---N
+	    NdN  s---ssso+/:://++oossso........osssoo++//::/+osss---s
+	    N     o---/osssssssssso+/:..........:/+osssssssssso/---o
+	           Ndy:../oo+/:-....:+s:......:s+:....-:/+oo/..:ydN
+	            dhh-........./oyyyyys+//+syyyyyo:.........-hhd
+	             myyyoooooosyyyyyyyyyyyyyyyyyyyyyysooooooyyym
+	              NyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyN
+	               NhyyyyyyyyyyyyyyyysoosyyyyyyyyyyyyyyyyhN
+	                  Nmysyyyyyyyso+::::::+osyyyyyyysymN
+	                     d+:/++/-....----....-/++/:+d
+	                       Nh+-................-+hN
+	                           Nhso/::::::/oshN
 
 
 

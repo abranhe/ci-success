@@ -1,6 +1,6 @@
 {
   "name": "ci-success",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Tired of getting errors in ci? ci-success is here",
   "main": "bin/cli.js",
   "scripts": {
