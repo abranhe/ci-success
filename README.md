@@ -56,7 +56,7 @@ npm install --save ci-success
 
 # CLI
 
-```
+```console
 Usage
 	$ ci-success <option|flag>
 
