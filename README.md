@@ -7,8 +7,6 @@
 </p>
 
 <p align="center">
-	<!-- Travis CI -->
-	<a href="https://travis-ci.org/abranhe/ci-success"><img src="https://img.shields.io/travis/abranhe/ci-success.svg?logo=travis" /></a>
 	<!-- LICENSE -->
 	<a href="https://github.com/abranhe/ci-success/blob/master/LICENSE"><img src="https://img.shields.io/github/license/abranhe/ci-success.svg" /></a>
 	<!-- NPM Version -->
@@ -24,6 +22,7 @@
 || Buid|
 |-|-|
 | App Veyor|[![Build status](https://ci.appveyor.com/api/projects/status/8pn3j4l89ygnoge5?svg=true)](https://ci.appveyor.com/project/abranhe/ci-success) |
+| Travis |[![img](https://img.shields.io/travis/abranhe/ci-success.svg?logo=travis)](https://travis-ci.org/abranhe/ci-success)|
 
 # Description
 
