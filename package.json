@@ -4,7 +4,9 @@
   "description": "Tired of getting errors in ci? ci-success is here",
   "main": "bin/cli.js",
   "scripts": {
-    "test": "ci-success travis --success"
+    "test": "node ./bin/cli.js",
+    "test-travis": "node ./bin/cli.js travis",
+    "test-app-veyor": "node ./bin/cli.js app-veyor"
   },
   "repository": {
     "type": "git",

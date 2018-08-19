@@ -1,0 +1,16 @@
+build: off
+cache:
+  - '%APPDATA%\npm-cache'
+clone_depth: 1
+skip_branch_with_pr: true
+skip_commits:
+  files:
+    - '**/*.md'
+environment:
+  matrix:
+    - nodejs_version: 10
+    - nodejs_version: 8
+    - nodejs_version: 6
+test_script:
+  - npm run test
+  - npm run app-veyor
