@@ -9,4 +9,4 @@ notifications:
 
 script:
     - npm test
-    - npm test-travis
+    - npm travis

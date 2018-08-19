@@ -5,8 +5,8 @@
   "main": "bin/cli.js",
   "scripts": {
     "test": "node ./bin/cli.js",
-    "test-travis": "node ./bin/cli.js travis",
-    "test-app-veyor": "node ./bin/cli.js app-veyor"
+    "travis": "node ./bin/cli.js travis",
+    "app-veyor": "node ./bin/cli.js app-veyor"
   },
   "repository": {
     "type": "git",
