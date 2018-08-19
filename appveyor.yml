@@ -11,6 +11,14 @@ environment:
     - nodejs_version: 10
     - nodejs_version: 8
     - nodejs_version: 6
+install:
+  - ps: Install-Product node $env:nodejs_version
+  - npm install --global npm@6.3.0
+  - npm --version
+  - git config core.symlinks true
+  - git reset --hard
+  - if %configuration% == FreshDeps (npm install --no-shrinkwrap --prefer-online)
+  - if %configuration% == LockedDeps (npm ci)
 test_script:
   - npm run test
   - npm run app-veyor
