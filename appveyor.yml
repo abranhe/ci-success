@@ -25,6 +25,7 @@ install:
   - ps: Install-Product node $env:nodejs_version
   - npm install --global npm@latest
   - npm --version
+  - npm install
 test_script:
   - npm test
   - npm run app-veyor
