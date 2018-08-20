@@ -1,8 +1,8 @@
 version: '1.0'
 steps:
-
-  unit_tests:
-    fail-fast: false
+  test_all_the_code:
+    image: node:5
+    working_directory: ${{main_clone}}
     commands:
       - npm install
       - npm test
