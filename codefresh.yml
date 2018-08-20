@@ -1,12 +1,8 @@
 version: '1.0'
-services:
-  node:
-    image: "node:8"
-    user: "node"
 
 steps:
   test_all_the_code:
-    image: node:5
+    image: node:8
     working_directory: ${{main_clone}}
     commands:
       - node --version
