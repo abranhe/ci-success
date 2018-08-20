@@ -2,7 +2,6 @@ version: '1.0'
 steps:
 
   unit_tests:
-    image: ${{build_step}}
     fail-fast: false
     commands:
       - npm install
