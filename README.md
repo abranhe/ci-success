@@ -19,8 +19,8 @@
 	<a href="https://www.patreon.com/abranhe"><img src="https://cdn.abraham.gq/badges/patreon.svg" /></a>
 </p>
 
-|| Buid|
-|-|-|
+| CI | Build|
+| -   |  -  |
 | App Veyor|[![Build status](https://ci.appveyor.com/api/projects/status/8pn3j4l89ygnoge5?svg=true)](https://ci.appveyor.com/project/abranhe/ci-success) |
 | Travis |[![img](https://img.shields.io/travis/abranhe/ci-success.svg?logo=travis)](https://travis-ci.org/abranhe/ci-success)|
 
@@ -33,8 +33,6 @@ Sometimes I don't want to create tests for my projects, and get travis running o
 > ⚠️ NOTE: I don't use it a lot, and I recommend to you not to use it. CREATE YOUR TESTS ☝🏻
 
 # Supported  CIs
-
-> All but we have images of:
 
 - Travis
 - Circle CI
