@@ -4,7 +4,7 @@ steps:
     image: node:5
     working_directory: ${{main_clone}}
     commands:
-      - nvm install 8
+      - node --version
       - npm install -g npm@latest
       - npm install
       - npm test
