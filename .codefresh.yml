@@ -1,0 +1,6 @@
+version: '1.0'
+steps:
+
+  unit_tests:
+    commands:
+      - npm run test
