@@ -27,6 +27,7 @@
 | Codeship|[ ![Codeship Status for abranhe/ci-success](https://app.codeship.com/projects/c4b98950-865f-0136-56e6-0298f1e5ac4e/status?branch=master)](https://app.codeship.com/projects/302460)|
 | Gitlab | [![pipeline status](https://gitlab.com/abranhe/ci-success/badges/master/pipeline.svg)](https://gitlab.com/abranhe/ci-success/commits/master)|
 |Semaphoreci|[![Build Status](https://semaphoreci.com/api/v1/abranhe/ci-success/branches/master/badge.svg)](https://semaphoreci.com/abranhe/ci-success)|
+| Codefresh|[![Codefresh build status]( https://g.codefresh.io/api/badges/pipeline/abranhe/abranhe%2Fci-success%2Fci-success?branch=master&key=eyJhbGciOiJIUzI1NiJ9.NWI3YTViYzM4OTRhOTMwMDAxNDZhMTU2.iNu0bZto-xpH8TkxFJa04QWCJ0ELvvEds-J2vIftR3I&type=cf-1)]( https://g.codefresh.io/repositories/abranhe/ci-success/builds?filter=trigger:build;branch:master;service:5b7a5ead5904b8bbda71a81c~ci-success)|
 
 # Description
 
