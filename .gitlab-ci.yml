@@ -1,4 +1,4 @@
-image: node:8.5.8
+image: node:6.9.5
 
 cache:
   paths:
@@ -7,7 +7,7 @@ cache:
 stages:
   - test
 
-test_async:
+test_gitlab_ci:
   stage: test
   script:
    - npm install
