@@ -24,4 +24,5 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
         
       # run tests!
-      - run: npm run circle-ci
+      - run: npm test
+      - run: npm test circle-ci
