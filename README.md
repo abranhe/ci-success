@@ -25,6 +25,7 @@
 | Travis |[![img](https://img.shields.io/travis/abranhe/ci-success.svg?logo=travis)](https://travis-ci.org/abranhe/ci-success)|
 |Circle**ci**|[![CircleCI](https://circleci.com/gh/abranhe/ci-success/tree/master.svg?style=svg&circle-token=d86574f2af9f565e003d5d2bf0b7891f7ed44f62)](https://circleci.com/gh/abranhe/ci-success/tree/master)|
 | Codeship|[ ![Codeship Status for abranhe/ci-success](https://app.codeship.com/projects/c4b98950-865f-0136-56e6-0298f1e5ac4e/status?branch=master)](https://app.codeship.com/projects/302460)|
+| Gitlab | [![pipeline status](https://gitlab.com/abranhe/ci-success/badges/master/pipeline.svg)](https://gitlab.com/abranhe/ci-success/commits/master)|
 
 # Description
 
