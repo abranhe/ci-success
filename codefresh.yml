@@ -1,12 +1,6 @@
 version: '1.0'
 steps:
 
-  build_step:
-    type: build
-    dockerfile: Dockerfile
-    image-name: abranhe/ci-success
-    tag: ${{CF_BRANCH}}
-
   unit_tests:
     image: ${{build_step}}
     fail-fast: false
