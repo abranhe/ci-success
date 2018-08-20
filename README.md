@@ -23,6 +23,7 @@
 | -   |  -  |
 | App Veyor|[![Build status](https://ci.appveyor.com/api/projects/status/8pn3j4l89ygnoge5?svg=true)](https://ci.appveyor.com/project/abranhe/ci-success) |
 | Travis |[![img](https://img.shields.io/travis/abranhe/ci-success.svg?logo=travis)](https://travis-ci.org/abranhe/ci-success)|
+|Circle**ci**|[![CircleCI](https://circleci.com/gh/abranhe/ci-success/tree/master.svg?style=svg&circle-token=d86574f2af9f565e003d5d2bf0b7891f7ed44f62)](https://circleci.com/gh/abranhe/ci-success/tree/master)|
 
 # Description
 
