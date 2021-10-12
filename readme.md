@@ -3,7 +3,7 @@
 <blockquote align="center"> Tired of getting errors in ci? ci-success is here </blockquote>
 
 <p align="center">
-<a href="https://www.npmjs.com/package/ci-success"><img src="https://cdn.abraham.gq/projects/ci-success/shot.png" align="center"></a>
+<a href="https://www.npmjs.com/package/ci-success"><img src="https://cdn.abranhe.com/projects/ci-success/shot.png" align="center"></a>
 </p>
 
 <p align="center">
@@ -11,14 +11,6 @@
 	<a href="https://github.com/abranhe/ci-success/blob/master/LICENSE"><img src="https://img.shields.io/github/license/abranhe/ci-success.svg" /></a>
 	<!-- NPM Version -->
 	<a href="https://www.npmjs.com/package/ci-success"><img src="https://img.shields.io/npm/v/ci-success.svg" /></a>
-	<!-- @abranhe -->
-	<a href="https://github.com/abranhe"><img src="https://abranhe.com/badge.svg"></a>
-	<!-- Cash me -->
-	<a href="https://cash.me/$abranhe"><img src="https://cdn.abraham.gq/badges/cash-me.svg"></a>
-	<!-- Patreon -->
-	<a href="https://www.patreon.com/abranhe"><img src="https://cdn.abraham.gq/badges/patreon.svg" /></a>
-	<!-- Paypal -->
-	<a href="https://paypal.me/abranhe/10"><img src="https://cdn.abraham.gq/badges/paypal.svg" /></a>
 </p>
 
 | CI | Build|
@@ -31,7 +23,7 @@
 |Semaphoreci|[![Build Status](https://semaphoreci.com/api/v1/abranhe/ci-success/branches/master/badge.svg)](https://semaphoreci.com/abranhe/ci-success)|
 | Codefresh|[![Codefresh build status]( https://g.codefresh.io/api/badges/pipeline/abranhe/abranhe%2Fci-success%2Fci-success?branch=master&key=eyJhbGciOiJIUzI1NiJ9.NWI3YTViYzM4OTRhOTMwMDAxNDZhMTU2.iNu0bZto-xpH8TkxFJa04QWCJ0ELvvEds-J2vIftR3I&type=cf-1)]( https://g.codefresh.io/repositories/abranhe/ci-success/builds?filter=trigger:build;branch:master;service:5b7a5ead5904b8bbda71a81c~ci-success)|
 
-# Description
+## Description
 
 **CI-SUCCESS** was created with the objective of cheat on [Travis CI](https://travis-ci.org) when testing Node.js modules. **CI-SUCCESS** is completely useless and *anti-testing* at all. It won't check or test anything and will always return `0` (at least I hope so 😬 ), and if you are a programmer, developer or something like that: you will know what `0` means.
 
@@ -39,7 +31,7 @@ Sometimes I don't want to create tests for my projects, and get travis running o
 
 > ⚠️ NOTE: I don't use it a lot, and I recommend to you not to use it. CREATE YOUR TESTS ☝🏻
 
-# Supported  CIs
+## Supported  CIs
 
 - Travis
 - Circle CI
@@ -47,13 +39,13 @@ Sometimes I don't want to create tests for my projects, and get travis running o
 - App Veyor
 - Gitlab
 
-# Install
+## Install
 
 ```
 npm install --save ci-success
 ```
 
-# Config `package.json`
+## Config `package.json`
 
 ```json
 "scripts": {
@@ -61,7 +53,7 @@ npm install --save ci-success
 }
 ```
 
-# CLI
+## CLI
 
 ```console
 Usage
@@ -127,12 +119,7 @@ $$\   $$ |$$ |  $$ |$$ |      $$ |      $$   ____| \____$$\  \____$$\
  \______/  \______/  \_______| \_______| \_______|\_______/ \_______/
 
 ```
-# Team
 
-|[![Carlos Abraham Logo](https://avatars3.githubusercontent.com/u/21347264?s=50&v=4)](https://19cah.com)|
-| :-: |
-| [Carlos Abraham](https://github.com/abranhe) |
+## License
 
-# License
-
-[MIT](https://github.com/abranhe/ci-success/blob/master/LICENSE) License © [Carlos Abraham](https://github.com/abranhe/)
+MIT License © [Abraham Hernandez](https://github.com/abranhe)
